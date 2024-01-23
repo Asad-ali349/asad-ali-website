@@ -17,8 +17,8 @@ export default function HeroSection() {
 						</div>
 						<div class="one-forth " >
 							<div class="hero_text text">
-								<span class="subheading">Hello! This is Asad</span>
-								<h1 class="mb-4 mt-3">Creative <span>UI/UX</span> Designer &amp; Developer</h1>
+								<span class="subheading">We Design &amp; Build Brands</span>
+								<h1 class="mb-4 mt-3">Hi, I am <span>Asad</span>. This is my favorite work.</h1>
 								<p><a href="#" class="btn btn-primary">Hire me</a> <a href="#" class="btn btn-primary btn-outline-primary">Download CV</a></p>
 							</div>
 						</div>
