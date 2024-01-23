@@ -1,0 +1,57 @@
+:root{
+    --primary-color:#FB795A;
+    --secondary-color:rgb(131, 209, 232);
+}
+.Hero_section{
+    height: 90vh !important;
+    margin-top: -50px;
+}
+.btn-primary{
+    background-color: var(--primary-color);
+    box-shadow: 10px 7px 24px -8px #FB795A;
+}
+.btn-primary:hover{
+    background-color: var(--primary-color);
+}
+.btn-primary-outline{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+.btn-primary-outline:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+.contactme,.hireme{
+    margin: 5px;
+}
+.center{
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.services{
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    height: 100px;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.services-line{
+    margin: 0px;
+}
+.services-icon{
+    font-size: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .services{
+        margin-top: 10px;
+    }
+
+}
