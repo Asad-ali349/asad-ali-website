@@ -15,7 +15,7 @@ const [isHidden, setHidden] = useState(true);
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3" data-aos="zoom-out">
+                    <div class="col-md-3" data-aos="zoom-in">
                         <div class="project img shadow d-flex justify-content-center align-items-center" style={{backgroundImage:`url(${process.env.PUBLIC_URL}/Assets/images/p1.png)` }}>
                             <div class="overlay"></div>
                             <div class="text text-center p-4">
@@ -24,7 +24,7 @@ const [isHidden, setHidden] = useState(true);
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3" data-aos="zoom-out">
+                    <div class="col-md-3" data-aos="zoom-in">
                         <div class="project img shadow d-flex justify-content-center align-items-center" style={{backgroundImage:`url(${process.env.PUBLIC_URL}/Assets/images/m1.png)` }}>
                             <div class="overlay"></div>
                             <div class="text text-center p-4">
@@ -33,7 +33,7 @@ const [isHidden, setHidden] = useState(true);
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3" data-aos="zoom-out">
+                    <div class="col-md-3" data-aos="zoom-in">
                         <div class="project img shadow d-flex justify-content-center align-items-center" style={{backgroundImage:`url(${process.env.PUBLIC_URL}/Assets/images/p5.webp)` }}>
                             <div class="overlay"></div>
                             <div class="text text-center p-4">
@@ -42,7 +42,7 @@ const [isHidden, setHidden] = useState(true);
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3" data-aos="zoom-out">
+                    <div class="col-md-3" data-aos="zoom-in">
                         <div class="project img shadow d-flex justify-content-center align-items-center" style={{backgroundImage:`url(${process.env.PUBLIC_URL}/Assets/images/m3.jpg)` }}>
                             <div class="overlay"></div>
                             <div class="text text-center p-4">
@@ -51,7 +51,7 @@ const [isHidden, setHidden] = useState(true);
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3" data-aos="zoom-out">
+                    <div class="col-md-3" data-aos="zoom-in">
                         <div class="project img shadow d-flex justify-content-center align-items-center" style={{backgroundImage:`url(${process.env.PUBLIC_URL}/Assets/images/p6.png)` }}>
                             <div class="overlay"></div>
                             <div class="text text-center p-4">
@@ -60,7 +60,7 @@ const [isHidden, setHidden] = useState(true);
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3" data-aos="zoom-out">
+                    <div class="col-md-3" data-aos="zoom-in">
                         <div class="project img shadow d-flex justify-content-center align-items-center" style={{backgroundImage:`url(${process.env.PUBLIC_URL}/Assets/images/p7.jpg)` }}>
                             <div class="overlay"></div>
                             <div class="text text-center p-4">
@@ -69,7 +69,7 @@ const [isHidden, setHidden] = useState(true);
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3" data-aos="zoom-out">
+                    <div class="col-md-3" data-aos="zoom-in">
                         <div class="project img shadow d-flex justify-content-center align-items-center" style={{backgroundImage:`url(${process.env.PUBLIC_URL}/Assets/images/m2.png)` }}>
                             <div class="overlay"></div>
                             <div class="text text-center p-4">
@@ -78,7 +78,7 @@ const [isHidden, setHidden] = useState(true);
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3" data-aos="zoom-out">
+                    <div class="col-md-3" data-aos="zoom-in">
                         <div class="project img shadow d-flex justify-content-center align-items-center" style={{backgroundImage:`url(${process.env.PUBLIC_URL}/Assets/images/g1.png)` }}>
                             <div class="overlay"></div>
                             <div class="text text-center p-4">
