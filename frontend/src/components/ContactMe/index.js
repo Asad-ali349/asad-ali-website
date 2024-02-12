@@ -14,20 +14,20 @@ export default function Index() {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		console.log(contactForm);
-		// try {
-		// 	await emailjs.send(
-		// 	'YOUR_SERVICE_ID',
-		// 	'YOUR_TEMPLATE_ID',
-		// 	contactForm,
-		// 	'YOUR_USER_ID'
-		// 	);
+		try {
+			await emailjs.send(
+			'service_i19j5kw',
+			'template_6wk007a',
+			contactForm,
+			'UVgH6kmng9ZJf-D6E'
+			);
 
-		// 	console.log('Email sent successfully');
-		// 	// Display success message to the user
-		// } catch (error) {
-		// 	console.error('Error sending email:', error);
-		// 	// Display error message to the user
-		// }
+			console.log('Email sent successfully');
+			// Display success message to the user
+		} catch (error) {
+			console.error('Error sending email:', error);
+			// Display error message to the user
+		}
 	};
     return (
         <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
