@@ -7,14 +7,14 @@ export default function Index() {
     <section class="ftco-section" id="services-section">
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-md-12 heading-section text-center mb-5">
-					<span class="subheading">I am grat at</span>
+				<div class="col-md-12 heading-section text-center mb-5" >
+					<span class="subheading">I am great at</span>
 					<h2 class="mb-4">We do awesome services for our clients</h2>
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="col-md-6 col-lg-4">
+				<div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
 					<div class="media block-6 services d-block bg-white rounded-lg shadow">
 						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-web-programming"></span></div>
 						<div class="media-body">
@@ -23,7 +23,7 @@ export default function Index() {
 						</div>
 					</div> 
 				</div>
-				<div class="col-md-6 col-lg-4">
+				<div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
 					<div class="media block-6 services d-block bg-white rounded-lg shadow">
 						<div class="icon shadow d-flex align-items-center justify-content-center"><span class="flaticon-app-development"></span></div>
 						<div class="media-body">
@@ -32,7 +32,7 @@ export default function Index() {
 						</div>
 					</div> 
 				</div>
-				<div class="col-md-6 col-lg-4">
+				<div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
 					<div class="media block-6 services d-block bg-white rounded-lg shadow">
 						<div class="icon shadow d-flex align-items-center justify-content-center"><span class="flaticon-3d-design"></span></div>
 						<div class="media-body">
