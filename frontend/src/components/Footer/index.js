@@ -56,7 +56,8 @@ export default function Index() {
 								</a>
 							</li>
 							<li class=""><a target="_blank" href="https://www.facebook.com/people/Asad-Ali/100011131755309/"><span class="fa fa-facebook"></span></a></li>
-							<li class="ftco-animate"><a target="_blank" href="https://www.instagram.com/asadking066/"><span class="fa fa-instagram"></span></a></li>
+							<li ><a target="_blank" href="https://www.instagram.com/asadking066/"><span class="fa fa-instagram"></span></a></li>
+							<li ><a target="_blank" href="https://github.com/Asad-ali349"><span class="fa fa-github"></span></a></li>
 							
 						</ul>
 					</div>
