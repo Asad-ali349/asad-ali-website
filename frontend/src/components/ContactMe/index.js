@@ -1,8 +1,34 @@
 import React, { useState } from 'react'
-
+import emailjs from 'emailjs-com';
 export default function Index() {
+	const [contactForm, setContactForm]=useState({
+		name:'',
+		email:'',
+		subject:'',
+		message:''
+	})
+	const handleChange = (e) => {
+		setContactForm({ ...contactForm, [e.target.name]: e.target.value });
+	};
 
+	const handleSubmit = async (e) => {
+		e.preventDefault();
+		console.log(contactForm);
+		// try {
+		// 	await emailjs.send(
+		// 	'YOUR_SERVICE_ID',
+		// 	'YOUR_TEMPLATE_ID',
+		// 	contactForm,
+		// 	'YOUR_USER_ID'
+		// 	);
 
+		// 	console.log('Email sent successfully');
+		// 	// Display success message to the user
+		// } catch (error) {
+		// 	console.error('Error sending email:', error);
+		// 	// Display error message to the user
+		// }
+	};
     return (
         <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
 		<div class="container">
@@ -15,26 +41,26 @@ export default function Index() {
 
 			<div class="row block-9">
 				<div class="col-md-8">
-					<form action="#" class="bg-light p-4 p-md-5 contact-form">
+					<form action="#" class="bg-light p-4 p-md-5 contact-form" onSubmit={handleSubmit}> 
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Your Name"/>
+									<input type="text" class="form-control" placeholder="Your Name" name='name' onChange={handleChange} value={contactForm.name}/>
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Your Email"/>
+									<input type="text" class="form-control" placeholder="Your Email" name='email' onChange={handleChange} value={contactForm.email}/>
 								</div>
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Subject"/>
+									<input type="text" class="form-control" placeholder="Subject" name='subject' onChange={handleChange} value={contactForm.subject}/>
 								</div>
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+									<textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message" onChange={handleChange}>{contactForm.message}</textarea>
 								</div>
 							</div>
 							<div class="col-md-12">
