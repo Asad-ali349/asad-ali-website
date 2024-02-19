@@ -65,6 +65,11 @@ body {
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
+.skill-card:hover{
+  transform: scale(1.05);
+  transition: transform 0.4s ease-in;
+  cursor: pointer;
+}
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
