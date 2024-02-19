@@ -29,7 +29,7 @@ export default function Index() {
 				<div class="col-lg-3 col-sm-6 col-6 mb-4" data-aos="zoom-in-up">
 					<div class="bg-white rounded-lg shadow p-4">
 						<img src={`${process.env.PUBLIC_URL}/Assets/images/Skills/javascript.png`} alt="" style={{width:'100%'}}/>
-						<h2 class="h5 font-weight-bold text-center mb-4">JavaScript</h2>
+						<h2 class="h5 font-weight-bold text-center mb-4 js">JavaScript</h2>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6 col-6 mb-4" data-aos="zoom-in-up">
@@ -47,25 +47,25 @@ export default function Index() {
 				<div class="col-lg-3 col-sm-6 col-6 mb-4" data-aos="zoom-in-up">
 					<div class="bg-white rounded-lg shadow p-4">
 						<img src={`${process.env.PUBLIC_URL}/Assets/images/Skills/react.png`} alt="" style={{width:'100%'}}/>
-						<h2 class="h5 font-weight-bold text-center mb-4">React JS</h2>
+						<h2 class="h5 font-weight-bold text-center mb-4 react">React JS</h2>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6 col-6 mb-4" data-aos="zoom-in-up">
 					<div class="bg-white rounded-lg shadow p-4">
 						<img src={`${process.env.PUBLIC_URL}/Assets/images/Skills/nodejs.png`} alt="" style={{width:'100%'}}/>
-						<h2 class="h5 font-weight-bold text-center mb-4">Node/Express</h2>
+						<h2 class="h5 font-weight-bold text-center mb-4 nodejs">Node/Express</h2>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6 col-6 mb-4" data-aos="zoom-in-up">
 					<div class="bg-white rounded-lg shadow p-4">
 						<img src={`${process.env.PUBLIC_URL}/Assets/images/Skills/mongo.png`} alt="" style={{width:'100%'}}/>
-						<h2 class="h5 font-weight-bold text-center mb-4">Mongo DB</h2>
+						<h2 class="h5 font-weight-bold text-center mb-4 mongo">Mongo DB</h2>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6 col-6 mb-4" data-aos="zoom-in-up">
 					<div class="bg-white rounded-lg shadow p-4">
 						<img src={`${process.env.PUBLIC_URL}/Assets/images/Skills/mysql.png`} alt="" style={{width:'100%'}}/>
-						<h2 class="h5 font-weight-bold text-center mb-4">MySQL DB</h2>
+						<h2 class="h5 font-weight-bold text-center mb-4 msql">MySQL DB</h2>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6 col-6 mb-4" data-aos="zoom-in-up">
