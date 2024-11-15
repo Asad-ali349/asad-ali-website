@@ -26,7 +26,7 @@ export default function AboutMe() {
 									<li class="d-flex"><span>Date of birth:</span> <span>August 18, 1999</span></li>
 									<li class="d-flex"><span>Address:</span> <span>Satelite town, Gujranwala, Pakistan</span></li>
 									<li class="d-flex"><span>Zip code:</span> <span>52250</span></li>
-									<li class="d-flex"><span>Email:</span> <span>asadking066@gmail.com</span></li>
+									<li class="d-flex"><span>Email:</span> <span>asadali29529@gmail.com</span></li>
 									<li class="d-flex"><span>Phone: </span> <span>+92-316-7429529</span></li>
 								</ul>
 							</div>

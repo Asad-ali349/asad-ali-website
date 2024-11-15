@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import emailjs from 'emailjs-com';
+import { toast } from 'react-toastify';
 export default function Index() {
 	const [contactForm, setContactForm]=useState({
 		name:'',
@@ -7,26 +8,47 @@ export default function Index() {
 		subject:'',
 		message:''
 	})
+	const [isSubmitting, setIsSubmitting] = useState(false);
 	const handleChange = (e) => {
 		setContactForm({ ...contactForm, [e.target.name]: e.target.value });
 	};
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
+		setIsSubmitting(true);
 		console.log(contactForm);
 		try {
-			await emailjs.send(
+			if(contactForm.name === '' || contactForm.email === '' || contactForm.subject === '' || contactForm.message === ''){
+				toast.error('Please fill all the fields');
+				return;
+			}
+			const response = await emailjs.send(
 			'service_i19j5kw',
 			'template_6wk007a',
 			contactForm,
 			'UVgH6kmng9ZJf-D6E'
 			);
 
-			console.log('Email sent successfully');
+			if(response.status === 200){
+				// show success message using toastify
+				toast.success('Email sent successfully');
+				setContactForm({
+					name:'',
+					email:'',
+					subject:'',
+					message:''
+				})
+			}else{
+				toast.error('Email sent failed');
+				console.log('Email sent failed', response);
+			}
+		
 			// Display success message to the user
 		} catch (error) {
 			console.error('Error sending email:', error);
 			// Display error message to the user
+		} finally {
+			setIsSubmitting(false);
 		}
 	};
     return (
@@ -65,7 +87,12 @@ export default function Index() {
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<input type="submit" value="Send Message" class="btn btn-primary py-3 px-5"/>
+									<input 
+										type="submit" 
+										value={isSubmitting ? "Sending..." : "Send Message"} 
+										class="btn btn-primary py-3 px-5"
+										disabled={isSubmitting}
+									/>
 								</div>
 							</div>
 						</div>
@@ -96,7 +123,7 @@ export default function Index() {
 								<span class="fa fa-paper-plane"></span>
 							</div>
 							<div class="text">
-								<p><span>Email:</span> <a href="mailto:asadking066@gmail.com">asadking066@gmail.com</a></p>
+								<p><span>Email:</span> <a href="mailto:asadali29529@gmail.com">asadali29529@gmail.com</a></p>
 							</div>
 						</div>
 						

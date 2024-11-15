@@ -1,9 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 export default function Index() {
-
-
-const [isHidden, setHidden] = useState(true);
 
     return (
         <section class="ftco-section ftco-project" id="projects-section">
@@ -11,7 +8,7 @@ const [isHidden, setHidden] = useState(true);
                 <div class="row justify-content-center pb-5">
                     <div class="col-md-12 heading-section text-center">
                         <span class="subheading">Accomplishments</span>
-                        <h2 class="mb-4">Our Projects</h2>
+                        <h2 class="mb-4">My Projects</h2>
                     </div>
                 </div>
                 <div class="row">

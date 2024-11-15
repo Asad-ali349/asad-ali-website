@@ -34,6 +34,12 @@ export default function Index() {
 				</div>
 				<div class="col-lg-3 col-sm-6 col-6 mb-4" data-aos="zoom-in-up">
 					<div class="bg-white rounded-lg shadow p-4 skill-card">
+						<img src={`${process.env.PUBLIC_URL}/Assets/images/Skills/typescript.png`} alt="" style={{width:'100%'}}/>
+						<h2 class="h5 font-weight-bold text-center mb-4 js">TypeScript</h2>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-6 mb-4" data-aos="zoom-in-up">
+					<div class="bg-white rounded-lg shadow p-4 skill-card">
 						<img src={`${process.env.PUBLIC_URL}/Assets/images/Skills/php.png`} alt="" style={{width:'100%'}}/>
 						<h2 class="h5 font-weight-bold text-center mb-4">PHP</h2>
 					</div>
@@ -64,6 +70,18 @@ export default function Index() {
 				</div>
 				<div class="col-lg-3 col-sm-6 col-6 mb-4" data-aos="zoom-in-up">
 					<div class="bg-white rounded-lg shadow p-4 skill-card">
+						<img src={`${process.env.PUBLIC_URL}/Assets/images/Skills/nestjs.png`} alt="" style={{width:'100%'}}/>
+						<h2 class="h5 font-weight-bold text-center mb-4 nodejs">Nest Js</h2>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-6 mb-4" data-aos="zoom-in-up">
+					<div class="bg-white rounded-lg shadow p-4 skill-card">
+						<img src={`${process.env.PUBLIC_URL}/Assets/images/Skills/amazon.png`} alt="" style={{width:'100%'}}/>
+						<h2 class="h5 font-weight-bold text-center mb-4 mongo">AWS Serverless</h2>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-6 mb-4" data-aos="zoom-in-up">
+					<div class="bg-white rounded-lg shadow p-4 skill-card">
 						<img src={`${process.env.PUBLIC_URL}/Assets/images/Skills/mysql.png`} alt="" style={{width:'100%'}}/>
 						<h2 class="h5 font-weight-bold text-center mb-4 msql">MySQL DB</h2>
 					</div>
@@ -84,6 +102,12 @@ export default function Index() {
 					<div class="bg-white rounded-lg shadow p-4 skill-card">
 						<img src={`${process.env.PUBLIC_URL}/Assets/images/Skills/github.png`} alt="" style={{width:'100%'}}/>
 						<h2 class="h5 font-weight-bold text-center mb-4">GitHub</h2>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-6 mb-4" data-aos="zoom-in-up">
+					<div class="bg-white rounded-lg shadow p-4 skill-card">
+						<img src={`${process.env.PUBLIC_URL}/Assets/images/Skills/android.png`} alt="" style={{width:'100%'}}/>
+						<h2 class="h5 font-weight-bold text-center mb-4">Android App</h2>
 					</div>
 				</div>
 				

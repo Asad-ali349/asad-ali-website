@@ -19,7 +19,7 @@ export default function HeroSection() {
 							<div class="hero_text text">
 								<span class="subheading">We Design &amp; Build Brands</span>
 								<h1 class="mb-4 mt-3">Hi, I am <span>Asad</span>. This is my favorite work.</h1>
-								<p><a href="#contact-section" class="btn btn-primary">Hire me</a> <a target='_blank' href={`${process.env.PUBLIC_URL}/Assets/pdf/Asad_resume.pdf`} class="btn btn-primary btn-outline-primary">Download CV</a></p>
+								<p><a href="#contact-section" class="btn btn-primary">Hire me</a> <a target='_blank' href={`${process.env.PUBLIC_URL}/Assets/pdf/Asad_resume.pdf`} class="btn btn-primary btn-outline-primary" rel="noreferrer">Download CV</a></p>
 							</div>
 						</div>
 					</div>
